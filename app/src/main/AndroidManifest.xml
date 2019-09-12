@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lk.uordcs.SLUG">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PointsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".QrActivity" />
+        <activity android:name=".VideoPlayActivity" />
+        <activity
+            android:name=".YouTubeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CarromActivity"
+            android:parentActivityName=".ScoresTabActivity" />
+        <activity
+            android:name=".ScoresTabActivity"
+            android:label="@string/title_activity_scores_tab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwimmingActivity"
+            android:label="SwimmingActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".KarateActivity"
+            android:label="KarateActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".ThrowingActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".TaekwondoActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".RunningActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".JumpingActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".HighJumpActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".TripleJumpActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".PoleVaultActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".DiscusThrowActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".RelayActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".ShotPutActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".RunningHundredActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".LongJumpActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".JavelinThrowActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".HurdlesActivity"
+            android:parentActivityName=".TrackAndFieldActivity" />
+        <activity
+            android:name=".RugbyFootballActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".HockeyActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".ElleActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".RowingActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".WrestlingActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".WeightliftingActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".TennisActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".ChessActivity"
+            android:parentActivityName=".ScoresTabActivity" />
+        <activity
+            android:name=".FootballActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".CricketActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".BaseballActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".TTennisActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".NetballActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".RoadRaceActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".VolleyballActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".BasketballActivity"
+            android:parentActivityName=".ScoresTabActivity" />
+        <activity
+            android:name=".BadmintonActivity"
+            android:parentActivityName=".ScoresTabActivity" />
+        <activity
+            android:name=".TrackAndFieldActivity"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".EventResultsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".NoticeDescriptionActivity" />
+        <activity
+            android:name=".Notices"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity android:name=".QR" />
+        <activity android:name=".Launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ranking"
+            android:label="Road Race Results"
+            android:parentActivityName=".EventResultsActivity" />
+        <activity
+            android:name=".EventScheduleActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Accomadation"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>
